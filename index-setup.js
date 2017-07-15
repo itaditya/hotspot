@@ -12,7 +12,7 @@ inquirer.prompt([{
 }]).then(function (answers) {
     var child;
     child = exec(`netsh wlan set hostednetwork mode=allow ssid="${answers.name}" key="${answers.pass}"`, function (error, stdout, stderr) {
-      util.log('stdout: ' + stdout);
+      util.log(stdout);
       if (error !== null) {
         console.log('exec error: ' + error);
       }
