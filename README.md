@@ -1,7 +1,7 @@
 ## How To Use
 
  1. Open command prompt with administrator privileges.
- 2. Install this plugin with `npm install -g hotspot`
+ 2. Install this plugin with `npm install -g whotspot`
  2. Run `hotspot on` to turn hotspot on.
  3. Run `hotspot off` to turn hotspot off.
 

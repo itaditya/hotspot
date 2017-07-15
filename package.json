@@ -1,5 +1,5 @@
 {
-  "name": "hotspot",
+  "name": "whotspot",
   "version": "1.0.0",
   "description": "A command-line tool for turning windows hotspot on/off.",
   "main": "index.js",
@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.11.0"
+    "commander": "^2.11.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.2.0"
   }
 }
