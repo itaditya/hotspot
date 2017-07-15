@@ -15,7 +15,6 @@
   "dependencies": {
     "commander": "^2.11.0",
     "figlet": "^1.2.0",
-    "inquirer": "^3.2.0",
-    "windows-elevate": "^1.0.1"
+    "inquirer": "^3.2.0"
   }
 }
