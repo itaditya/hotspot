@@ -5,6 +5,7 @@ program
     .command('on', 'turn hotspot on')
     .command('off', 'turn hotspot off')
     .command('setup', 'set hotspot name and password')
+    .command('status', 'check hotspot status and connected people')
     .parse(process.argv);
 figlet('HOTSPOT', function(err, data) {
     if (err) {
