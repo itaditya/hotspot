@@ -9,8 +9,15 @@
   "bin": {
     "hotspot": "./index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["cli", "hotspot", "wifi", "intenet sharing", "command-line"],
+  "author": "Aditya Agarwal @itaditya (adi.surge.sh)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itaditya/hotspot"
+  },
+  "bugs": {
+    "url": "https://github.com/itaditya/hotspot/issues"
+  },
   "license": "ISC",
   "dependencies": {
     "commander": "^2.11.0",
